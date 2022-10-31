@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: beige;
+        }
+        .head{
+            position: sticky;
+            top: 3px;
+            
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 33px;
+            margin: 0px 12px;
+            overflow-y: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: -5px 3px;
+            padding: 15px 14px;
+        }
+
+        .navbar li a {
+            color: white;
+            cursor: pointer;
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+
+        #Search {
+            border-radius: 13px;
+            margin: 6px 75px;
+            padding: 3px;
+        }
+
+        .search {
+            float: right;
+
+        }
+
+        .text {
+            width: 900px;
+            border: 2px solid red;
+            margin: 33px auto;
+            background-color: antiquewhite;
+        }
+
+        .iteM {
+            border: 2px solid black;
+            margin: 12px -3px;
+            padding: 30px 69px;
+            /* display: inline-block; */
+
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #Vegetable {
+            float: right;
+            width: 48%;
+            clear: none;
+
+        }
+
+        #Fastfood {
+            clear: both;
+            width: 100%;
+        }
+        #Fastfood1 {
+            clear: both;
+            width: 100%;
+        }
+        #Fastfood2 {
+            clear: both;
+            width: 100%;
+        }
+        #Fastfood3 {
+            clear: both;
+            width: 100%;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -8px;
+            left:-41px;
+            height: 56px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Get Now</a></li>
+                <div class="search">
+                    <input type="text" name="Search" id="Search" placeholder="Search">
+                </div>
+            </ul>
+            <div class="img">
+                <img src="https://yt3.ggpht.com/yti/AJo0G0nZm6L_IQd6K2jRfHS2Mg6sRBKrOQKcvI5-t927vw=s88-c-k-c0x00ffffff-no-rj-mo"
+                    alt="" srcset="">
+            </div>
+
+        </nav>
+    </header>
+    <div class="text">
+        <h1>Welcome</h1>
+
+        <div id="fruits" class="iteM">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi magni,
+                nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+        <div id="Vegetable" class="iteM">
+            <h3>Vegetable</h3>
+            <p id="vegetablepara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi
+                magni, nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+        <div id="Fastfood" class="iteM">
+            <h3>Fast Food</h3>
+            <p id="Fastpara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi magni,
+                nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+        <div id="Fastfood1" class="iteM">
+            <h3>Fast Food</h3>
+            <p id="Fastpara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi magni,
+                nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+        <div id="Fastfood2" class="iteM">
+            <h3>Fast Food</h3>
+            <p id="Fastpara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi magni,
+                nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+        <div id="Fastfood3" class="iteM">
+            <h3>Fast Food</h3>
+            <p id="Fastpara" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius animi magni,
+                nisi quasi, similique illum aut eveniet voluptatibus, adipisci labore perspiciatis.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
