@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Lobster?category=Display">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Bhai+2?query=baloo+bha">
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Righteous?category=Display">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Alfa+Slab+One?category=Display">
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            overflow:hidden;
+
+
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 20%;
+            margin: 65px 199px;
+            text-align: center;
+            font-size: 40px;
+            font-family: 'Baloo Bhai 2', cursive;
+
+
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+
+
+        }
+
+        .im {
+            display: flex;
+            justify-content: end;
+        }
+
+        .image2 {
+            width: 535px;
+            height: 1015px;
+            position: relative;
+            top: -346px;
+            left: -123px;
+            display: inline-block;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            border-radius: 10px;
+            background-color: rgb(0, 230, 234);
+            color: white;
+            bottom: unset;
+            cursor: pointer;
+            padding: 4px 23px;
+            position: relative;
+            left: -35px;
+            z-index: 2;
+            width: 117px;
+            height: 27px;
+        }
+
+        .image1 {
+            width: 57px;
+        }
+
+        .left div {
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Baloo Bhai 2', sans-serif;
+            position: relative;
+            left: -22px;
+        }
+
+        .secline {
+            font-size: 20px;
+            color: rgb(38, 32, 32);
+            margin: -3px 177px;
+
+            padding: 9px 84px;
+            display: inline-block;
+            position: relative;
+            top: -40px;
+        }
+
+        .CON {
+            display: inline-block;
+
+            margin: 25px 103px;
+            padding: 25px 29px;
+            position: relative;
+            top: -1072px;
+            right: -127px;
+            width: 33%;
+
+        }
+
+        .CON input {
+            width: 508px;
+            padding: 13px 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 15px;
+
+        }
+
+        .inp div {
+            font-size: 21px;
+            font-family: 'Island Moments', cursive;
+        }
+
+        .right div {
+            position: relative;
+            z-index: 2;
+            left: -213px;
+            top: 23px;
+        }
+
+        #bt {
+            position: relative;
+            bottom: 69rem;
+            right: -16rem;
+            margin: 0px 9px;
+            border-radius: 10px;
+            background-color: rgb(0, 230, 234);
+            color: white;
+            cursor: pointer;
+            padding: 4px 23px;
+            width: 498px;
+            height: 40px;
+            font-family: 'Alfa Slab One', cursive;
+        }
+        #bt:hover,.btn:hover
+        {
+            background-color: aqua;
+            text-decoration: underline;
+        }
+
+        #Forgot {
+            font-size: 15px;
+        }
+
+        label {
+            position: absolute;
+            right: 21px;
+            top: 228px;
+        }
+
+        #rem {
+            position: absolute;
+            right: -130px;
+            bottom: 14px;
+        }
+        a{
+            text-decoration: none;
+        }
+    
+        a:visited{
+            color: white;
+            text-decoration: none;
+        }
+        #AA{
+            color: gray;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="left">
+        <img src="img\My logo.jpg" alt="" class="image1">
+        <div>Sai's Fitness</div>
+    </div>
+    <div class="mid item1">
+        Login :)
+    </div>
+    <div class="secline">
+        To keep connected with us please Login with<br>
+        your email and password 🔔
+    </div>
+
+    <div class="right item2">
+        <div>Doesn't have an account yet?</div>
+        <button class="btn" style="border:none;"><a href="sign.html" id="A">Sign Up</a></button>
+    </div>
+    <div class="im">
+        <img src="img/11879394_Work_from_home.jpg" alt="" class="image2">
+    </div>
+    <div class="CON">
+        <div class="inp">
+            <div>Email Address</div>
+            <input type="text" class="in" placeholder="you@example.com">
+        </div>
+        <div class="inp">
+            <div>Password</div>
+            <input type="text" class="in" placeholder="Enter 8 character or more">
+            <div id="Forgot"><a href="#" id="AA">Forgot Password?</a></div>
+            <input type="checkbox" name="" id="rem">
+            <label for="rem">Remember Me</label>
+        </div>
+    </div>
+    <div class="btn1">
+        <button class="btn12" id="bt">Login</button>
+    </div>
+
+
+
+
+</body>
+
+</html>
